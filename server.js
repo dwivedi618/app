@@ -1,5 +1,5 @@
 const express = require('express'),
-    path = request('path');
+    path = require('path');
 const app = express();
 app.use(express.static('./dist/trex'));
 
